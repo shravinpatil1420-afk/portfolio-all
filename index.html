@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sravni Patil | Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #0d6efd;
+            font-weight: 500;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #0d6efd;
+            font-size: 2rem;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background-color: #0d6efd;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .project {
+            background-color: white;
+            padding: 20px;
+            width: 45%;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #0d6efd;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .project {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sravni Patil</h1>
+    <p>First-year B.Tech CSE Student | Data Science & AI Enthusiast</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p style="text-align:center;">
+        Passionate learner interested in web development, programming, and emerging technologies.
+    </p>
+
+    <br>
+
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project">
+            <img src="./images/drone1.jpg" alt="Drone Project">
+            <img src="./images/drone2.jpg" alt="Drone Project">
+            <h3>Drone Making Project</h3>
+            <p>Built a functional drone with hands-on electronics and programming experience.</p>
+        </div>
+
+        <div class="project">
+            <img src="./images/iot_workshop.jpg" alt="IoT Workshop">
+            <h3>IoT Workshop</h3>
+            <p>Controlled devices using IoT concepts and hardware programming.</p>
+        </div>
+
+        <div class="project">
+            <img src="./images/ai_confluence1.jpg" alt="AI Confluence">
+            <img src="./images/ai_confluence2.jpg" alt="AI Confluence">
+            <h3>AI Confluence – IIT Guwahati</h3>
+            <p>Participated in AI poster and film-making competitions.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+
+    <div class="projects-container">
+        <div class="project">
+            <img src="./images/certificate.jpg" alt="Achievement Certificate">
+            <h3>72 Hours Profit Pursuit</h3>
+            <p>Won Campus Entrepreneur of the Year Award.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact">
+        <p>Email: <a href="mailto:shravinpatil1420@gmail.com">shravinpatil1420@gmail.com</a></p>
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/" target="_blank">Connect with me</a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Sravni Patil</p>
+</footer>
+
+</body>
+</html>
